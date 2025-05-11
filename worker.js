@@ -5,9 +5,9 @@ const MESSAGE_ID = 'YOUR_MESSAGE_ID'; // Replace with the message ID for editing
 
 // Define the bots' URLs and their names
 const bots = [
-  { name: 'QUIZORA', url: 'https://httpbin.org/status/200', turl: 'https://t.me/Quizorabot' },
-  { name: 'LECTURES BOT', url: 'https://httpbin.org/status/200', turl: 'https://t.me/JEe_lecture_boT' },
-  { name: 'COMPANION BOT', url: 'https://httpbin.org/status/200', turl: 'https://t.me/the_lectures_bot' }
+  { name: '𝐆𝐞𝐦𝐢𝐧𝐢 𝐀𝐈', url: 'https://httpbin.org/status/200', turl: 'https://t.me/Gemini_AI_MV_Bot' },
+  { name: 'sᴛʀɪɴɢ sᴇssɪᴏɴ Bᴏᴛ', url: 'https://httpbin.org/status/200', turl: 'https://t.me/STRING_SESSION_MV_BOT' },
+  { name: '𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫', url: 'https://httpbin.org/status/200', turl: 'https://t.me/Insta_Downloader_MV_bot' }
 ];
 
 
