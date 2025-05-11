@@ -54,7 +54,7 @@ async function checkBotsStatus(bots) {
       const response = await fetch(bot.url);
       statuses.push({
         name: bot.name,
-        status: response.status === 200 ? 'Alive ⚡' : 'Offline ⛔ ',
+        status: response.status === 200 ? 'Alive ✅' : 'Offline ⛔ ',
         url: bot.turl
       });
     } catch (error) {
@@ -74,7 +74,7 @@ function formatMessage(statuses) {
   const lastCheckDate = now.toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata' });
   const lastCheckTime = now.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit' });
 
-  let message = `✨ **𝗭𝗲𝗻𝗼𝘃𝗮 𝗕𝗼𝘁𝘀 𝗦𝘁𝗮𝘁𝘂𝘀** ✨\n\n`;
+  let message = `✨ **〘 🇮🇳 𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕 🇮🇳〙- 𝗕𝗼𝘁𝘀 𝗦𝘁𝗮𝘁𝘂𝘀** ✨\n\n`;
   message += `━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
 
   statuses.forEach((bot) => {
